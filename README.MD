@@ -10,9 +10,10 @@ os dados estão sendo salvos no meu mongodb cloud de testes.
 ### ROTAS
 
 * Caso o jogador ja exista, os valores passados serão contabilizados.
-POST- localhost:3001/api/player
 
-Body : {
+POST- localhost:3001/api/player
+```json
+Body :  {
 	"name":"<NOME DO JOGADOR>",
 	"nickname":"<NICKNAME DO JOGADOR>",
     "team":"<NOME DO TIME>",
@@ -23,10 +24,12 @@ Body : {
     "totalGames": 0,
     "totalWins": 0
 }
+```
 
 GET - localhost:3001/api/player/nickname/<NICKNAME DO JOGADOR>
 
-RESPOSTA ESPERADA : 
+RESPOSTA ESPERADA :
+```json=
 [
   {
     "nickname": "fewge",
@@ -35,3 +38,4 @@ RESPOSTA ESPERADA :
     "winRate": 60
   }
 ]
+```
