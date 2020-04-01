@@ -2,9 +2,9 @@
 
 ## INSTALAÇAO DO PROJETO
 
-npm install - no diretorio onde está o package.json
+**npm install** - no diretorio onde está o package.json
 
-node index - para subir o projeto
+**node index** - para subir o projeto
 
 os dados estão sendo salvos no meu mongodb cloud de testes.
 
